@@ -15,7 +15,6 @@ class TestHipChat(BaseTest):
         invite_url = feature_page.get_invite_url()
         feature_page.sign_out()
         signup_page = HipChatSingUpPage(invite_url)
-        #signup_page.sign_up(CONST.full_name, CONST.title, CONST.sign_up_password)
         while not signup_page.is_element_present(CONST.lobby):
             signup_page.sign_up(CONST.full_name, CONST.title, CONST.sign_up_password)
 
