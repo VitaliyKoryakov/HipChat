@@ -6,11 +6,11 @@ import string
 class HipChatSingUpPage(BasePage):
     def __init__(self, url):
         super(HipChatSingUpPage, self).__init__(url)
-        #self.name_field = self.driver.find_element_by_id('name')
-        #self.email_field = self.driver.find_element_by_id('email')
-        #self.job_title_field = self.driver.find_element_by_id('title')
-        #self.password_field = self.driver.find_element_by_id('password')
-        #self.signup_field = self.driver.find_element_by_id('signup')
+        ##self.name_field = self.driver.find_element_by_id('name')
+        ##self.email_field = self.driver.find_element_by_id('email')
+        ##self.job_title_field = self.driver.find_element_by_id('title')
+        ##self.password_field = self.driver.find_element_by_id('password')
+        ##self.signup_field = self.driver.find_element_by_id('signup')
 
     def sign_up(self, full_name, title, password):
         self.enter_full_name(full_name).enter_email().enter_job_title(title).enter_password(password)
