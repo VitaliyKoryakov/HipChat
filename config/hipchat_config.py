@@ -1,0 +1,17 @@
+__author__ = 'Vetal'
+
+
+hip_chat_url = 'https://ec2-52-6-132-159.compute-1.amazonaws.com/'
+hip_chat_url_features = 'https://ec2-52-6-132-159.compute-1.amazonaws.com/admin/features'
+login = 'admin@example.com'
+correct_pass = 'Hipchat!123'
+incorrect_pass = 'qqq'
+error_message = 'error-field'
+signin_button = 'signin'
+invite_link_field = 'invite_link'
+avatar = 'aui-avatar-inner'
+sign_out = 'sign_out'
+full_name = 'Test Name'
+title = 'test title'
+sign_up_password = 'testpass'
+lobby = 'aui-nav-item-label'
